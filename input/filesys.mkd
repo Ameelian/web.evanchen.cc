@@ -240,8 +240,7 @@ But there are some catches.
 
 1. First, Bash looks around for a file called `gossip.txt`
 in the folder that Bash happens to be in.
-If it sees `gossip.txt` in the current folder.
-If it's there, it picks up that piece of paper.
+If it sees `gossip.txt` in the current folder, it picks up that piece of paper.
 2. Then, Bash looks for a command called `vim`.
 There is a Vim editor on the system so Bash radios Vim to come
 over and read the `gossip.txt` document.
@@ -256,7 +255,7 @@ The orders and space arguments matters.
 The first word is almost always a verb,
 and everything that comes after it is an argument or the verb.
 This could be the name of a file as in our example,
-or it could be some other flag or parameter
+or it could be some other flag or parameter.
 This is one reason we avoid spaces in filenames,
 because it mucks all these commands up, requiring quotes.
 
